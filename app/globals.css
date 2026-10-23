@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  color-scheme: light;
+  --background: #f8f8f5;
+  --foreground: #202522;
+  --surface: #efefea;
+  --card: #fffefa;
+  --primary: #596b4d;
+  --secondary: #e9ece5;
+  --accent: #dfe5d8;
+  --muted: #6b716b;
+  --border: #dedfd8;
+  --font-base: 'DM Sans', sans-serif;
+  --font-display: 'Instrument Serif', serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body { margin: 0; background: var(--card); color: var(--foreground); font-family: var(--font-base); }
+button, input, textarea { font: inherit; }
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: var(--accent); color: var(--foreground); }
+:focus-visible { outline: 2px solid #5e8c6c; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
