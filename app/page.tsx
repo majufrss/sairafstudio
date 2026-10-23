@@ -15,7 +15,7 @@ export default function HomePage() {
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [error, setError] = useState("");
-  const contact = { whatsapp: "5548984339780", linkedin: "https://www.linkedin.com/in/mariajuliafariass" };
+  const contact = { whatsapp: "5548984339780", linkedin: "https://www.linkedin.com/in/mariajuliafariass/" };
 
   function submitForm(e: FormEvent<HTMLFormElement>) {
     e.preventDefault(); setError(""); setSent(false);
