@@ -5,3 +5,6 @@
 @media(prefers-reduced-motion:reduce){.site *{scroll-behavior:auto!important;transition:none!important}}
 /* Tipografia uniforme: destaques sem itálico ou fonte serifada. */
 .hero h1 em,.section h2 em,.interfaceHeading em,.aboutStamp strong em,.contactCopy h2 em{font-family:var(--font-base);font-style:normal;font-weight:inherit;letter-spacing:inherit}
+
+/* Garantia global: nenhum texto do site em itálico. */
+.site em,.site i{font-style:normal!important;font-family:inherit!important}
