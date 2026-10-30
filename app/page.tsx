@@ -45,7 +45,7 @@ export default function HomePage() {
       <div className={styles.heroVisual} aria-label="Ilustração abstrata de uma interface digital">
         <div className={styles.visualTopline}><span>ESTRATÉGIA + TECNOLOGIA</span><span>SAIRAF / DIGITAL</span></div>
         <div className={styles.interfaceCard}><div className={styles.interfaceBar}><span/><span/><span/><b>presença.digital</b><i>↗</i></div><div className={styles.interfaceContent}><span className={styles.interfaceTag}>SUA MARCA, ONLINE</span><div className={styles.interfaceHeading}>Ideias claras.<br/><em>Resultados reais.</em></div><div className={styles.interfaceLine}/><div className={styles.interfaceRows}><span/><span/><span/></div><div className={styles.interfaceButton}>CONHEÇA MAIS <ArrowRight size={12}/></div></div><div className={styles.interfaceFoot}><span>DESIGN RESPONSIVO</span><span>01 — 03</span></div></div>
-        <div className={styles.floatNote}><span className={styles.noteIcon}><CheckCircle2 size={18}/></span><span><b>Feito para o seu negócio</b><small>Estratégia, clareza e funcionalidade</small></span></div>
+        
       </div>
     </section>
     <section className={`${styles.services} ${styles.section}`} id="servicos">
