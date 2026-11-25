@@ -64,3 +64,6 @@
 .faqCta>span{font-size:8px;letter-spacing:.1em;color:var(--muted);font-weight:700}
 .faqCta a{display:inline-flex;align-items:center;gap:7px;color:var(--green);font-size:10px;font-weight:650}
 @media(max-width:760px){.faq{padding-top:42px;padding-bottom:45px}.faqIntro{grid-template-columns:minmax(0,1fr);gap:12px;padding-top:24px}.faqList{margin-top:20px}.faqList summary{font-size:12px;padding:17px 1px}.faqList details p{padding-right:8px}.faqCta{align-items:flex-start;flex-direction:column;gap:9px}}
+
+/* Alinha perguntas e chamada da FAQ ao mesmo eixo esquerdo do título. */
+.faqList,.faqCta{width:100%;max-width:none;margin-left:0;margin-right:0}
