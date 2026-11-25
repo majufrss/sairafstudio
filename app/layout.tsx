@@ -5,9 +5,9 @@ const siteUrl = "https://sairafstudio.com.br";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
+  title: "Criação de Sites e Landing Pages | Sairaf Studio",
   description:
-    "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis e de todo o Brasil.",
+    "Desenvolvimento de sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
   alternates: {
     canonical: "/",
   },
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
+    title: "Criação de Sites e Landing Pages | Sairaf Studio",
     description:
-      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis e em todo o Brasil.",
+      "Sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
     type: "website",
     url: siteUrl,
     locale: "pt_BR",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
+    title: "Criação de Sites e Landing Pages | Sairaf Studio",
     description:
-      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis e em todo o Brasil.",
+      "Sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
   },
 };
 
@@ -48,7 +48,7 @@ export default function RootLayout({
     name: "Sairaf Studio",
     url: siteUrl,
     description:
-      "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis e de todo o Brasil.",
+      "Desenvolvimento de sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
     areaServed: [
       { "@type": "City", name: "São José", containedInPlace: { "@type": "State", name: "Santa Catarina" } },
       { "@type": "City", name: "Florianópolis", containedInPlace: { "@type": "State", name: "Santa Catarina" } },
