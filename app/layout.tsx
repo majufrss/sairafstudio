@@ -5,7 +5,7 @@ const siteUrl = "https://sairafstudio.com.br";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Criação de Sites e Landing Pages | Sairaf Studio",
+  title: "Desenvolvimento Web: Sites e Sistemas | Sairaf Studio",
   description:
     "Desenvolvimento de sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
   alternates: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Criação de Sites e Landing Pages | Sairaf Studio",
+    title: "Desenvolvimento Web: Sites e Sistemas | Sairaf Studio",
     description:
       "Sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
     type: "website",
