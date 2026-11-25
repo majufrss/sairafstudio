@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, CheckCircle2, MessageCircle } from "lucide-react";
 import styles from "./ServiceLandingPage.module.css";
