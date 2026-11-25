@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Criação de Sites e Landing Pages | Sairaf Studio",
+    title: "Desenvolvimento Web: Sites e Sistemas | Sairaf Studio",
     description:
       "Sites profissionais, landing pages e sistemas sob medida para empresas de todo o Brasil. Atendimento 100% remoto pela Sairaf Studio.",
   },
