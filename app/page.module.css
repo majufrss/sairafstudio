@@ -20,3 +20,5 @@
 .serviceDetails li{font-size:10px;line-height:1.8;color:#666b65;padding:2px 0}
 .serviceContact{display:inline-flex;align-items:center;gap:7px;margin-top:4px;padding:10px 12px;background:var(--pale);color:var(--green)!important;font-size:10px;font-weight:650;border-radius:3px}
 @media(max-width:760px){.serviceToggle{padding-top:15px}.serviceDetails{margin-top:14px}}
+
+.servicePageLink{display:inline-flex;align-items:center;gap:7px;margin-top:13px;color:var(--green)!important;font-size:10px;font-weight:650}.servicePageLink:hover{text-decoration:underline!important;text-underline-offset:3px}
