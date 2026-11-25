@@ -31,3 +31,19 @@
 .footerTop{justify-self:end;white-space:nowrap}
 @media(max-width:760px){.footer{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.footerServices{grid-column:1/-1;justify-content:flex-start;gap:10px 16px}.footerTop{grid-column:1/-1;justify-self:start}}
 @media(max-width:420px){.footerServices{font-size:9px}}
+
+
+/* Etapas do processo: orientacao clara para quem esta conhecendo a Sairaf. */
+.process{padding-top:48px;padding-bottom:72px;background:var(--soft);max-width:none}
+.process>.sectionLabel,.processIntro,.processGrid,.processNote{max-width:1104px;margin-left:auto;margin-right:auto}
+.processIntro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.62fr);gap:36px;align-items:end;padding-top:30px}
+.processIntro>p{font-size:12px;line-height:1.9;color:#666b65;margin:0 0 5px;max-width:360px}
+.processGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:30px}
+.processGrid article{padding:23px;background:var(--paper);border:1px solid var(--line);border-radius:4px;min-width:0}
+.processGrid article>span{font-size:9px;letter-spacing:.1em;color:var(--green)}
+.processGrid h3{font-size:16px;line-height:1.4;margin:22px 0 9px;letter-spacing:-.02em}
+.processGrid p,.processNote p{font-size:11px;line-height:1.85;color:#666b65;margin:0}
+.processNote{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;align-items:center;margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.processNote>span{font-size:8px;letter-spacing:.1em;color:var(--green);font-weight:700}
+.processNote a{display:inline-flex;align-items:center;gap:7px;color:var(--green);font-size:10px;font-weight:650;white-space:nowrap}
+@media(max-width:760px){.process{padding-top:40px;padding-bottom:44px}.processIntro{grid-template-columns:minmax(0,1fr);gap:12px;padding-top:24px}.processGrid{grid-template-columns:minmax(0,1fr);gap:10px;margin-top:22px}.processGrid article{padding:19px}.processGrid h3{margin:14px 0 7px}.processNote{grid-template-columns:minmax(0,1fr);gap:8px;margin-top:16px}.processNote a{margin-top:5px}}
