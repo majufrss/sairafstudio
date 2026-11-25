@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
     description:
-      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em Santa Catarina e em todo o Brasil.",
+      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis, Grande Florianópolis e em todo o Brasil.",
   },
 };
 
