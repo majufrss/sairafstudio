@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/sistemas-sob-medida" },
   openGraph: {
     title: "Desenvolvimento de Sistemas Sob Medida | Sairaf Studio",
-    description: "Sistemas personalizados para organizar informações, simplificar rotinas e apoiar processos de pequenas empresas. Desenvolvimento web com atendimento remoto.",
+    description: "Desenvolvimento de sistemas web sob medida para pequenas empresas: organize informações, simplifique rotinas e melhore processos. Atendimento remoto em todo o Brasil.",
     url: "https://sairafstudio.com.br/sistemas-sob-medida",
     siteName: "Sairaf Studio",
     locale: "pt_BR",
