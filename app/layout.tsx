@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
   description:
-    "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis, Grande Florianópolis e de todo o Brasil.",
+    "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis e de todo o Brasil.",
   alternates: {
     canonical: "/",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
     description:
-      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis, Grande Florianópolis e em todo o Brasil.",
+      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis e em todo o Brasil.",
     type: "website",
     url: siteUrl,
     locale: "pt_BR",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Criação de Sites em São José e Florianópolis | Sairaf Studio",
     description:
-      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis, Grande Florianópolis e em todo o Brasil.",
+      "Sites profissionais, landing pages e sistemas sob medida para empresas. Atendimento remoto em São José, Florianópolis e em todo o Brasil.",
   },
 };
 
@@ -48,11 +48,10 @@ export default function RootLayout({
     name: "Sairaf Studio",
     url: siteUrl,
     description:
-      "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis, Grande Florianópolis e de todo o Brasil.",
+      "Criação de sites profissionais, landing pages e sistemas sob medida. Atendimento remoto para empresas de São José, Florianópolis e de todo o Brasil.",
     areaServed: [
       { "@type": "City", name: "São José", containedInPlace: { "@type": "State", name: "Santa Catarina" } },
       { "@type": "City", name: "Florianópolis", containedInPlace: { "@type": "State", name: "Santa Catarina" } },
-      { "@type": "AdministrativeArea", name: "Grande Florianópolis" },
       { "@type": "Country", name: "Brasil" },
     ],
     knowsAbout: [
