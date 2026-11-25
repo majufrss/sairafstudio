@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/landing-pages" },
   openGraph: {
     title: "Criação de Landing Pages para Empresas | Sairaf Studio",
-    description: "Landing pages responsivas para divulgar serviços, apresentar ofertas e gerar contatos. Desenvolvimento sob medida com atendimento remoto em Santa Catarina e todo o Brasil.",
+    description: "Criação de landing pages profissionais para divulgar serviços, apresentar ofertas e gerar contatos. Desenvolvimento sob medida com atendimento remoto para todo o Brasil.",
     url: "https://sairafstudio.com.br/landing-pages",
     siteName: "Sairaf Studio",
     locale: "pt_BR",
